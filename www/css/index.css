@@ -1,0 +1,221 @@
+/* line 1, ../sass/index.scss */
+header {
+  height: 100vh;
+  position: relative;
+  margin-bottom: 230px;
+  background-color: rgba(166, 206, 57, 0.7);
+  overflow: hidden;
+}
+/* line 10, ../sass/index.scss */
+header .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: rgba(18, 30, 97, 0.5);
+}
+/* line 19, ../sass/index.scss */
+header video {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+/* line 33, ../sass/index.scss */
+header nav {
+  position: absolute;
+  text-transform: uppercase;
+  right: 50px;
+  left: 50px;
+  z-index: 1;
+  top: 0;
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+/* line 45, ../sass/index.scss */
+header nav #logo-icon {
+  background: url(../img/main-logo.png) no-repeat;
+  height: 75px;
+  width: 70px;
+}
+/* line 53, ../sass/index.scss */
+header nav .up-nav {
+  float: right;
+  list-style: none;
+  font-size: 18px;
+  font-family: Open-Sans Regular, sans-serif;
+}
+/* line 58, ../sass/index.scss */
+header nav .up-nav li {
+  padding-left: 50px;
+  display: inline-block;
+}
+/* line 61, ../sass/index.scss */
+header nav .up-nav li a {
+  color: #fffefe;
+  text-decoration: none;
+}
+/* line 65, ../sass/index.scss */
+header nav .up-nav li a:hover {
+  color: #448aff;
+}
+/* line 70, ../sass/index.scss */
+header nav .up-nav .lang .dropdown-lang {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s all;
+}
+/* line 78, ../sass/index.scss */
+header nav .up-nav .lang:hover .dropdown-lang {
+  opacity: 1;
+}
+/* line 82, ../sass/index.scss */
+header nav .down-nav {
+  list-style: none;
+  font-size: 18px;
+  font-family: Open-Sans Extrabold;
+}
+/* line 86, ../sass/index.scss */
+header nav .down-nav li {
+  padding-left: 50px;
+  display: inline-block;
+}
+/* line 89, ../sass/index.scss */
+header nav .down-nav li a {
+  color: #fffefe;
+  text-decoration: none;
+}
+/* line 93, ../sass/index.scss */
+header nav .down-nav li a:hover {
+  color: #448aff;
+}
+/* line 99, ../sass/index.scss */
+header .table {
+  z-index: 1;
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+/* line 104, ../sass/index.scss */
+header .table .table-cell {
+  vertical-align: middle;
+  display: table-cell;
+}
+/* line 108, ../sass/index.scss */
+header .table .table-cell .container h1 {
+  position: absolute;
+}
+
+/* line 115, ../sass/index.scss */
+.main-line {
+  position: relative;
+}
+
+/* line 118, ../sass/index.scss */
+.main-line:after {
+  position: absolute;
+  content: url(../img/main-line.png);
+  width: 195px;
+  height: 145px;
+  left: 45%;
+}
+
+/* line 125, ../sass/index.scss */
+.about-us {
+  width: 100%;
+}
+/* line 129, ../sass/index.scss */
+.about-us p span {
+  color: #000000;
+}
+/* line 133, ../sass/index.scss */
+.about-us .ford {
+  background-image: url(/img/ford.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  width: 100%;
+  height: 530px;
+}
+/* line 142, ../sass/index.scss */
+.about-us .we-know {
+  margin-top: 100px;
+}
+
+/* line 147, ../sass/index.scss */
+.avto-usa {
+  background-image: url(/img/bg-avto-usa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: contain;
+  background-size: contain;
+  width: 100%;
+  margin-top: 160px;
+}
+/* line 158, ../sass/index.scss */
+.avto-usa .container .row .avto-usa-foto {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+/* line 165, ../sass/index.scss */
+.avto-usa .container .row .avto-usa-foto .avto-usa-img {
+  background-image: url(/img/avto-usa-img.png);
+  height: 500px;
+  width: 300px;
+  margin: 0 auto;
+}
+/* line 173, ../sass/index.scss */
+.avto-usa .container .row .avto-usa-info .title:before {
+  top: 50px;
+}
+
+/* line 181, ../sass/index.scss */
+.main-form {
+  background-image: url(/img/main-form-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  width: 100%;
+  height: 700px;
+  margin-top: -100px;
+  margin-bottom: 165px;
+}
+
+/* line 193, ../sass/index.scss */
+.car-available {
+  margin-bottom: 200px;
+}
+/* line 196, ../sass/index.scss */
+.car-available .container .row {
+  margin-top: 50px;
+}
+/* line 198, ../sass/index.scss */
+.car-available .container .row .car-item {
+  min-height: 425px;
+  min-width: 350px;
+  border: 1px #d9d9d9 solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+/* line 204, ../sass/index.scss */
+.car-available .container .row .car-item .car-item-foto {
+  margin-top: -2px;
+  margin-left: -2px;
+}
+/* line 207, ../sass/index.scss */
+.car-available .container .row .car-item .car-item-foto img {
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+}
