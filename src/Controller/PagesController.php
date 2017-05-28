@@ -34,4 +34,8 @@ class PagesController extends AppController
     {
 
     }
+    public function catalog()
+    {
+
+    }
 }
