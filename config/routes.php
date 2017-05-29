@@ -52,7 +52,8 @@ Router::scope('/', function (RouteBuilder $routes) {
 
     $routes->connect('/', ['controller' => 'Pages', 'action' => 'index']);
     $routes->connect('/catalog', ['controller' => 'Pages', 'action' => 'catalog']);
-
+    $routes->connect('/blog', ['controller' => 'Pages', 'action' => 'blog']);
+    $routes->connect('/catalog_open', ['controller' => 'Pages', 'action' => 'catalog_open']);
 
 
     /**

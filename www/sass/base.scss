@@ -18,6 +18,7 @@ html, body{
  h1{
    font-size: 48px;
    color: #fffefe;
+   text-transform: uppercase;
  }
  h2{
    font-family: 'Open Sans', sans-serif;
@@ -28,16 +29,18 @@ html, body{
    text-transform: uppercase;
    color: #000000;
    position: relative;
-   margin-bottom: 50px;
+   padding-bottom: 20px;
+   margin-bottom: 30px;
    font-family: 'Open Sans', sans-serif;
    font-weight: bold;
  }
 .title:before{
+  content: '';
    position: absolute;
-   content: url(../img/h2-line.png);
+   background-color: #448aff;
    height: 1px;
    width: 175px;
-   top: 20px;
+   bottom: 0;
  }
 .par{
   max-width: 1100px;
@@ -56,7 +59,8 @@ p{
 }
 
 footer{
-  min-height: 300px;
+  padding: 50px 0;
+  margin-top: 0;
   width: 100%;
   background-color: #444444;
   display: flex;
@@ -77,6 +81,8 @@ footer{
         font-size: 16px;
         color: #fff;
         padding-bottom: 25px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
       }
       ul{
         list-style: none;
@@ -86,9 +92,88 @@ footer{
             color: #a1a1a1;
             font-size: 12px;
             line-height: 2;
+            font-family: 'Open Sans', sans-serif;
           }
           a:hover{
             color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  footer{
+    padding: 0;
+    .container{
+      .row{
+        .footer-logo{
+        }
+        .footer-logo:after{
+          //content: url(../img/footer-line.png);
+          //position: absolute;
+          //right: 55px;
+          //bottom: -50px;
+          display: none;
+        }
+        .footer-nav{
+          text-align: center;
+          h6{
+            padding-top: 25px;
+            padding-bottom: 0;
+          }
+        }
+        .footer-services{
+          text-align: center;
+          h6{
+            padding-top: 25px;
+            padding-bottom: 0;
+          }
+        }
+        .footer-contact{
+          text-align: center;
+          h6{
+            padding-top: 25px;
+            padding-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 569px) {
+  footer{
+    padding: 0;
+    .container{
+      .row{
+        .footer-logo{
+        }
+        .footer-logo:after{
+          //content: url(../img/footer-line.png);
+          //position: absolute;
+          //right: 55px;
+          //bottom: -50px;
+          display: none;
+        }
+        .footer-nav{
+          text-align: center;
+          h6{
+            padding-top: 25px;
+            padding-bottom: 0;
+          }
+        }
+        .footer-services{
+          text-align: center;
+          h6{
+            padding-top: 25px;
+            padding-bottom: 0;
+          }
+        }
+        .footer-contact{
+          text-align: center;
+          h6{
+            padding-top: 25px;
+            padding-bottom: 0;
           }
         }
       }

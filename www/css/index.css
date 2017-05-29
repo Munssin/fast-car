@@ -3,10 +3,9 @@ header {
   height: 100vh;
   position: relative;
   margin-bottom: 230px;
-  background-color: rgba(166, 206, 57, 0.7);
   overflow: hidden;
 }
-/* line 10, ../sass/index.scss */
+/* line 9, ../sass/index.scss */
 header .overlay {
   position: absolute;
   top: 0;
@@ -16,87 +15,12 @@ header .overlay {
   z-index: 1;
   background-color: rgba(18, 30, 97, 0.5);
 }
-/* line 19, ../sass/index.scss */
+/* line 18, ../sass/index.scss */
 header video {
   position: absolute;
   width: 100%;
   height: 100vh;
   object-fit: cover;
-}
-/* line 33, ../sass/index.scss */
-header nav {
-  position: absolute;
-  text-transform: uppercase;
-  right: 50px;
-  left: 50px;
-  z-index: 1;
-  top: 0;
-  height: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-/* line 45, ../sass/index.scss */
-header nav #logo-icon {
-  background: url(../img/main-logo.png) no-repeat;
-  height: 75px;
-  width: 70px;
-}
-/* line 53, ../sass/index.scss */
-header nav .up-nav {
-  float: right;
-  list-style: none;
-  font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
-}
-/* line 58, ../sass/index.scss */
-header nav .up-nav li {
-  padding-left: 45px;
-  display: inline-block;
-}
-/* line 61, ../sass/index.scss */
-header nav .up-nav li a {
-  color: #fffefe;
-  text-decoration: none;
-}
-/* line 65, ../sass/index.scss */
-header nav .up-nav li a:hover {
-  color: #448aff;
-}
-/* line 70, ../sass/index.scss */
-header nav .up-nav .lang .dropdown-lang {
-  position: absolute;
-  opacity: 0;
-  display: flex;
-  flex-direction: column;
-  transition: 0.5s all;
-}
-/* line 78, ../sass/index.scss */
-header nav .up-nav .lang:hover .dropdown-lang {
-  opacity: 1;
-  background-color: #fff;
-}
-/* line 83, ../sass/index.scss */
-header nav .down-nav {
-  list-style: none;
-  font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bold;
-}
-/* line 88, ../sass/index.scss */
-header nav .down-nav li {
-  padding-left: 45px;
-  display: inline-block;
-}
-/* line 91, ../sass/index.scss */
-header nav .down-nav li a {
-  color: #fffefe;
-  text-decoration: none;
-}
-/* line 95, ../sass/index.scss */
-header nav .down-nav li a:hover {
-  color: #448aff;
 }
 /* line 101, ../sass/index.scss */
 header .table {
@@ -265,26 +189,16 @@ header .table .table-cell .container .main-text p {
   padding-left: 50px;
 }
 /* line 264, ../sass/index.scss */
-.avto-usa .container .row .avto-usa-info p {
-  font-size: 18px;
-  color: #888888;
-  margin-bottom: 35px;
-}
-/* line 269, ../sass/index.scss */
 .avto-usa .container .row .avto-usa-info ul {
   margin-bottom: 55px;
 }
-/* line 271, ../sass/index.scss */
+/* line 266, ../sass/index.scss */
 .avto-usa .container .row .avto-usa-info ul li {
   font-size: 18px;
   color: #888888;
 }
-/* line 276, ../sass/index.scss */
-.avto-usa .container .row .avto-usa-info .title:before {
-  top: 50px;
-}
 
-/* line 284, ../sass/index.scss */
+/* line 276, ../sass/index.scss */
 .main-form {
   background-image: url(/img/main-form-bg.png);
   background-position: center;
@@ -296,7 +210,7 @@ header .table .table-cell .container .main-text p {
   margin-top: -150px;
   margin-bottom: 165px;
 }
-/* line 296, ../sass/index.scss */
+/* line 288, ../sass/index.scss */
 .main-form .container .form-call:before {
   position: absolute;
   content: url(../img/main-line.png);
@@ -305,7 +219,7 @@ header .table .table-cell .container .main-text p {
   left: -45px;
   top: -2px;
 }
-/* line 304, ../sass/index.scss */
+/* line 296, ../sass/index.scss */
 .main-form .container .form-call {
   position: relative;
   width: 520px;
@@ -316,21 +230,17 @@ header .table .table-cell .container .main-text p {
   box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-/* line 313, ../sass/index.scss */
+/* line 305, ../sass/index.scss */
 .main-form .container .form-call .text-form {
   max-width: 370px;
   margin: 0 auto;
   margin-top: 100px;
 }
-/* line 317, ../sass/index.scss */
-.main-form .container .form-call .text-form .title:before {
-  top: 50px;
-}
-/* line 320, ../sass/index.scss */
+/* line 309, ../sass/index.scss */
 .main-form .container .form-call .text-form .title {
   margin-bottom: 30px;
 }
-/* line 323, ../sass/index.scss */
+/* line 312, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=text], .main-form .container .form-call .text-form select {
   width: 100%;
   font-size: 18px;
@@ -343,19 +253,19 @@ header .table .table-cell .container .main-text p {
   box-sizing: border-box;
   outline: none;
 }
-/* line 336, ../sass/index.scss */
+/* line 325, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=text]:active {
   border-radius: 50px;
   border: 1px solid #448aff;
   outline: none;
 }
-/* line 341, ../sass/index.scss */
+/* line 330, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=text]:focus {
   border-radius: 50px;
   border: 1px solid #448aff;
   outline: none;
 }
-/* line 347, ../sass/index.scss */
+/* line 336, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=submit] {
   width: 100%;
   background-color: #fff;
@@ -371,22 +281,27 @@ header .table .table-cell .container .main-text p {
   outline: none;
   transition: 0.5s all;
 }
-/* line 363, ../sass/index.scss */
+/* line 352, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=submit]:hover {
   color: #fff;
   background-color: #448aff;
 }
 
-/* line 372, ../sass/index.scss */
+/* line 361, ../sass/index.scss */
 .car-available {
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
-/* line 375, ../sass/index.scss */
+/* line 364, ../sass/index.scss */
 .car-available .container .row {
   margin-top: 50px;
 }
-/* line 377, ../sass/index.scss */
+/* line 366, ../sass/index.scss */
+.car-available .container .row a {
+  text-decoration: none;
+}
+/* line 369, ../sass/index.scss */
 .car-available .container .row .car-item {
+  text-decoration: none;
   overflow: hidden;
   min-height: 425px;
   min-width: 350px;
@@ -395,19 +310,19 @@ header .table .table-cell .container .main-text p {
   margin-bottom: 30px;
   transition: 0.5s all;
 }
-/* line 385, ../sass/index.scss */
+/* line 378, ../sass/index.scss */
 .car-available .container .row .car-item .car-item-foto {
   position: relative;
   margin-top: -2px;
   margin-left: -2px;
 }
-/* line 389, ../sass/index.scss */
+/* line 382, ../sass/index.scss */
 .car-available .container .row .car-item .car-item-foto img {
   width: 350px;
   height: 200px;
   border-radius: 5px;
 }
-/* line 394, ../sass/index.scss */
+/* line 387, ../sass/index.scss */
 .car-available .container .row .car-item .car-item-foto .overlay {
   position: absolute;
   top: 0;
@@ -418,54 +333,58 @@ header .table .table-cell .container .main-text p {
   transition: .5s ease-in-out;
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 403, ../sass/index.scss */
+/* line 396, ../sass/index.scss */
 .car-available .container .row .car-item .car-item-foto .overlay img {
   height: 34px;
   width: 32px;
   margin: 83px 159px;
 }
-/* line 410, ../sass/index.scss */
+/* line 403, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item {
   max-width: 300px;
   margin: 0 auto;
+  transition: 0.5s all;
 }
-/* line 413, ../sass/index.scss */
+/* line 411, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .marka {
   margin: 30px auto 20px;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color: #888888;
 }
-/* line 418, ../sass/index.scss */
+/* line 416, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .marka span {
   font-weight: bold;
   color: #000;
 }
-/* line 423, ../sass/index.scss */
+/* line 421, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .price {
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color: #888888;
 }
-/* line 428, ../sass/index.scss */
+/* line 426, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .price span {
   font-weight: bold;
   color: #000;
 }
-/* line 433, ../sass/index.scss */
+/* line 431, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .item-car-inf {
   margin: 0 auto;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
 }
-/* line 438, ../sass/index.scss */
-.car-available .container .row .car-item .opus-item .btn_more {
-  transform: translateY(70px);
+/* line 437, ../sass/index.scss */
+.car-available .container .row .car-item .btn_more {
+  transform: translateY(90px);
   transition: 0.5s all;
+  text-align: center;
+  background-color: #fff;
 }
-/* line 441, ../sass/index.scss */
-.car-available .container .row .car-item .opus-item .btn_more a {
+/* line 442, ../sass/index.scss */
+.car-available .container .row .car-item .btn_more span {
+  background-color: #fff;
   text-decoration: none;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
@@ -475,24 +394,28 @@ header .table .table-cell .container .main-text p {
   border: 1px solid #000;
   padding: 18px 80px;
 }
-/* line 454, ../sass/index.scss */
+/* line 469, ../sass/index.scss */
 .car-available .container .row .car-item:hover {
   transform: translateY(-10px);
   box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
 }
-/* line 458, ../sass/index.scss */
+/* line 473, ../sass/index.scss */
 .car-available .container .row .car-item:hover .overlay {
   opacity: 1;
 }
-/* line 461, ../sass/index.scss */
+/* line 476, ../sass/index.scss */
 .car-available .container .row .car-item:hover .btn_more {
-  transform: translateY(-20px);
+  transform: translateY(0);
 }
-/* line 465, ../sass/index.scss */
+/* line 479, ../sass/index.scss */
+.car-available .container .row .car-item:hover .opus-item {
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+}
+/* line 485, ../sass/index.scss */
 .car-available .container .read-more {
   margin-top: 50px;
 }
-/* line 467, ../sass/index.scss */
+/* line 487, ../sass/index.scss */
 .car-available .container .read-more a {
   color: #fff;
   background-color: #448aff;
@@ -505,7 +428,7 @@ header .table .table-cell .container .main-text p {
   border-radius: 50px;
   transition: 0.5s all;
 }
-/* line 479, ../sass/index.scss */
+/* line 499, ../sass/index.scss */
 .car-available .container .read-more a:hover {
   color: #448aff;
   background-color: #fff;

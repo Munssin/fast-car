@@ -1,14 +1,14 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-3">
                 <div class="footer-logo">
                     <a href="#">
                         <img src="/img/footer-logo.png" alt="">
                     </a>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-3">
                 <div class="footer-nav">
                     <h6>НАВІГАЦІЯ</h6>
                     <ul>
@@ -19,7 +19,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-3">
                 <div class="footer-services">
                     <h6>ПОСЛУГИ</h6>
                     <ul>
@@ -31,7 +31,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-3">
                 <div class="footer-contact">
                     <h6>КОНТАКТИ</h6>
                     <ul>

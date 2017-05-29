@@ -1,32 +1,10 @@
+
 <header >
     <div class="overlay"></div>
     <video autoplay="true" muted="muted" loop>
         <source src="/video/Car.mp4" type="video/mp4">
     </video>
-    <nav>
-    <div id="logo-icon"></div>
-        <div>
-            <ul class="up-nav">
-                <li><a href="#">Авто в наявності</a></li>
-                <li><a href="#">новини</a></li>
-                <li><a href="#">співпраця</a></li>
-                <li><a href="#">контакти</a></li>
-                <li class="lang"><a href="#">ua - </a>
-                    <div class="dropdown-lang">
-                        <a href="#">ru</a>
-                        <a href="#">eng</a>
-                    </div>
-                </li>
-            </ul>
-            <ul class="down-nav">
-                <li><a href="#">авто зі сша</a></li>
-                <li><a href="#">покупка</a></li>
-                <li><a href="#">доставка</a></li>
-                <li><a href="#">розмитненя</a></li>
-                <li><a href="#">авто під ключ</a></li>
-            </ul>
-        </div>
-    </nav>
+
     <div class="table">
         <div class="table-cell">
             <div class="container">
@@ -135,7 +113,7 @@
             <div class="col-md-8">
                 <div class="avto-usa-info">
                     <h2 class="title">Автомобіль з США — реальність для кожного</h2>
-                    <p>Завдяки злагодженим діям команди професіоналів Fast Cars USA Ви Отримуєте <span>весь сперктр послуг, що включає:</span></p>
+                    <p class="par">Завдяки злагодженим діям команди професіоналів Fast Cars USA Ви Отримуєте <span>весь сперктр послуг, що включає:</span></p>
                     <ul>
                         <li>Найкомфортніший сервіс замовлення транспортного засобу</li>
                         <li>Найкомфортніший сервіс замовлення</li>
@@ -164,7 +142,7 @@
                     <input type="text" id="fname" name="firstname" placeholder="Ім'я">
 
                     <label for="num"></label>
-                    <input type="text" id="num" name="lastname" placeholder="Номер або пошта">
+                    <input type="text" id="num" name="num" placeholder="Номер або пошта">
 
                     <input type="submit" value="ОТРИМАТИ ДЗВІНОК">
                 </form>
@@ -179,87 +157,133 @@
         <p class="par">Список авто, що вже знаходяться в Україні, та чекають на свої власників</p>
         <div class="row">
             <div class="col-md-4">
+
+                <a href="">
                 <div class="car-item">
-                    <div class="car-item-foto">
-                        <img src="img/car-item-2.png" alt="">
-                        <i class="overlay">
-                            <img src="img/item-icon-hov.png" alt="">
-                            </icla>
-                    </div>
-                    <div class="opus-item">
-                        <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
-                        <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
-                        <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+
+                        <div class="car-item-foto">
+                            <img src="img/car-item-2.png" alt="">
+                            <i class="overlay">
+                                <img src="img/item-icon-hov.png" alt="">
+                                </i>
+                        </div>
+                        <div class="opus-item">
+                            <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
+                            <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
+                            <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+                        </div>
                         <div class="btn_more">
-                            <a href="#">ПЕРЕГЛЯНУТИ</a>
+                            <span>ПЕРЕГЛЯНУТИ</span>
                         </div>
                     </div>
-                </div>
+                </a>
+            </div>
+
+
+            <div class="col-md-4">
+                <a href="">
+                    <div class="car-item">
+
+                        <div class="car-item-foto">
+                            <img src="img/car-item-2.png" alt="">
+                            <i class="overlay">
+                                <img src="img/item-icon-hov.png" alt="">
+                            </i>
+                        </div>
+                        <div class="opus-item">
+                            <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
+                            <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
+                            <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+                        </div>
+                        <div class="btn_more">
+                            <span>ПЕРЕГЛЯНУТИ</span>
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="car-item">
-                    <div class="car-item-foto">
-                        <img src="img/car-item-2.png" alt="">
+                <a href="">
+                    <div class="car-item">
+
+                        <div class="car-item-foto">
+                            <img src="img/car-item-2.png" alt="">
+                            <i class="overlay">
+                                <img src="img/item-icon-hov.png" alt="">
+                            </i>
+                        </div>
+                        <div class="opus-item">
+                            <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
+                            <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
+                            <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+                        </div>
+                        <div class="btn_more">
+                            <span>ПЕРЕГЛЯНУТИ</span>
+                        </div>
                     </div>
-                    <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
-                    <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
-                    <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
-                    <!--<div class="btn_more">-->
-                    <!--<a href="#"></a>-->
-                    <!--</div>-->
-                </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="car-item">
-                    <div class="car-item-foto">
-                        <img src="img/car-item-2.png" alt="">
+                <a href="">
+                    <div class="car-item">
+
+                        <div class="car-item-foto">
+                            <img src="img/car-item-2.png" alt="">
+                            <i class="overlay">
+                                <img src="img/item-icon-hov.png" alt="">
+                            </i>
+                        </div>
+                        <div class="opus-item">
+                            <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
+                            <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
+                            <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+                        </div>
+                        <div class="btn_more">
+                            <span>ПЕРЕГЛЯНУТИ</span>
+                        </div>
                     </div>
-                    <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
-                    <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
-                    <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
-                    <!--<div class="btn_more">-->
-                    <!--<a href="#"></a>-->
-                    <!--</div>-->
-                </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="car-item">
-                    <div class="car-item-foto">
-                        <img src="img/car-item-2.png" alt="">
+                <a href="">
+                    <div class="car-item">
+
+                        <div class="car-item-foto">
+                            <img src="img/car-item-2.png" alt="">
+                            <i class="overlay">
+                                <img src="img/item-icon-hov.png" alt="">
+                            </i>
+                        </div>
+                        <div class="opus-item">
+                            <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
+                            <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
+                            <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+                        </div>
+                        <div class="btn_more">
+                            <span>ПЕРЕГЛЯНУТИ</span>
+                        </div>
                     </div>
-                    <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
-                    <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
-                    <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
-                    <!--<div class="btn_more">-->
-                    <!--<a href="#"></a>-->
-                    <!--</div>-->
-                </div>
+                </a>
             </div>
             <div class="col-md-4">
-                <div class="car-item">
-                    <div class="car-item-foto">
-                        <img src="img/car-item-2.png" alt="">
+                <a href="">
+                    <div class="car-item">
+
+                        <div class="car-item-foto">
+                            <img src="img/car-item-2.png" alt="">
+                            <i class="overlay">
+                                <img src="img/item-icon-hov.png" alt="">
+                            </i>
+                        </div>
+                        <div class="opus-item">
+                            <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
+                            <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
+                            <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+                        </div>
+                        <div class="btn_more">
+                            <span>ПЕРЕГЛЯНУТИ</span>
+                        </div>
                     </div>
-                    <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
-                    <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
-                    <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
-                    <!--<div class="btn_more">-->
-                    <!--<a href="#"></a>-->
-                    <!--</div>-->
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="car-item">
-                    <div class="car-item-foto">
-                        <img src="img/car-item-2.png" alt="">
-                    </div>
-                    <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
-                    <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
-                    <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
-                    <!--<div class="btn_more">-->
-                    <!--<a href="#"></a>-->
-                    <!--</div>-->
-                </div>
+                </a>
             </div>
         </div>
         <div class="read-more">

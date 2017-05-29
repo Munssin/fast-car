@@ -28,13 +28,20 @@ use Cake\View\Exception\MissingTemplateException;
  */
 class PagesController extends AppController
 {
-
-
     public function index()
     {
 
     }
     public function catalog()
+    {
+
+    }
+    public function blog()
+    {
+
+    }
+
+    public function catalogOpen()
     {
 
     }
