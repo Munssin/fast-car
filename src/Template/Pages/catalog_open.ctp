@@ -26,7 +26,7 @@
                     <div class="description">
                         Состояние:
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolores ex libero magnam,
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolores ex libero magnam, 
                             minima omnis perferendis perspiciatis tempora. Consequatur corporis cumque labore modi
                             officia quod sapiente velit! Deserunt fugiat, nemo.
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolores ex libero magnam,
