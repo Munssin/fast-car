@@ -45,4 +45,12 @@ class PagesController extends AppController
     {
 
     }
+    public function newsPage()
+    {
+
+    }
+    public function contact()
+    {
+
+    }
 }

@@ -16,17 +16,18 @@
                     <div class="car-price">12,000 $ <span>(340,000 грн)</span></div>
                     <div class="general-description">
                         <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li><span class="inf-inf">Пробіг</span><span class="norm-inf">100 тис. км</span></li>
+                            <li><span class="inf-inf">Рік</span><span class="norm-inf">2012 рік</span></li>
+                            <li><span class="inf-inf">Двигун</span><span class="norm-inf">2.0 бензин</span></li>
+                            <li><span class="inf-inf">Короька передач</span><span class="norm-inf">Автомат</span></li>
+                            <li><span class="inf-inf">Привід</span><span class="norm-inf">Повний</span></li>
                         </ul>
                     </div>
+                    <hr>
                     <div class="description">
                         Состояние:
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolores ex libero magnam, 
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolores ex libero magnam,
                             minima omnis perferendis perspiciatis tempora. Consequatur corporis cumque labore modi
                             officia quod sapiente velit! Deserunt fugiat, nemo.
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos dolores ex libero magnam,
@@ -46,9 +47,24 @@
             </div>
             <div class="col-lg-8">
                 <div class="foto-about-car">
-                    <div class="focus-car"></div>
-                    <div class="slider"></div>
-                    <div class="just-look"></div>
+                    <div class="slider">
+                        <img src="/img/car-item-2.png" alt="">
+                        <img src="/img/open-car.png" alt="">
+                        <img src="/img/car-item-2.png" alt="">
+                        <img src="/img/car-item-2.png" alt="">
+                        <img src="/img/open-car.png" alt="">
+                        <img src="/img/car-item-2.png" alt="">
+                    </div>
+                    <div class="slider-nav">
+                        <img class="sm-foto"  src="/img/car-item-2.png" alt="">
+                        <img class="sm-foto" src="/img/open-car.png" alt="">
+                        <img class="sm-foto" src="/img/car-item-2.png" alt="">
+                        <img class="sm-foto"  src="/img/car-item-2.png" alt="">
+                        <img class="sm-foto" src="/img/open-car.png" alt="">
+                        <img class="sm-foto" src="/img/car-item-2.png" alt="">
+                    </div>
+
+                    <div class="just-look">Перегляньте також інші пропозиції</div>
                     <a href="">
                         <div class="car-item">
                             <div class="car-item-foto">
@@ -61,9 +77,45 @@
                                 <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
                                 <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
                                 <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+                                <div class="btn_more">
+                                    <span>ПЕРЕГЛЯНУТИ</span>
+                                </div>
                             </div>
-                            <div class="btn_more">
-                                <span>ПЕРЕГЛЯНУТИ</span>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="car-item">
+                            <div class="car-item-foto">
+                                <img src="img/car-item-2.png" alt="">
+                                <i class="overlay">
+                                    <img src="img/item-icon-hov.png" alt="">
+                                </i>
+                            </div>
+                            <div class="opus-item">
+                                <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
+                                <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
+                                <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+                                <div class="btn_more">
+                                    <span>ПЕРЕГЛЯНУТИ</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="car-item">
+                            <div class="car-item-foto">
+                                <img src="img/car-item-2.png" alt="">
+                                <i class="overlay">
+                                    <img src="img/item-icon-hov.png" alt="">
+                                </i>
+                            </div>
+                            <div class="opus-item">
+                                <div class="marka"><span>AUDI Q5</span> Quattro, 2.0 TFSI </div>
+                                <div class="price"><span>12,000 $ </span>(340,000 грн)</div>
+                                <p class="item-car-inf">2014 рік, розмитнено жовтень 2016,  не ломалась, нармальна, всь копія</p>
+                                <div class="btn_more">
+                                    <span>ПЕРЕГЛЯНУТИ</span>
+                                </div>
                             </div>
                         </div>
                     </a>

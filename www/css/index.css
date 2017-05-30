@@ -82,74 +82,74 @@ header .table .table-cell .container .main-text p {
   left: 40%;
 }
 
-/* line 165, ../sass/index.scss */
+/* line 155, ../sass/index.scss */
 .about-us {
   width: 100%;
 }
-/* line 168, ../sass/index.scss */
+/* line 158, ../sass/index.scss */
 .about-us p {
   margin-bottom: 55px;
 }
-/* line 170, ../sass/index.scss */
+/* line 160, ../sass/index.scss */
 .about-us p span {
   color: #000000;
 }
-/* line 177, ../sass/index.scss */
+/* line 167, ../sass/index.scss */
 .about-us .mark-avto .car-mark {
   background-image: url(../img/brand_sprite.png);
   background-repeat: no-repeat;
   height: 90px;
   width: 70px;
 }
-/* line 183, ../sass/index.scss */
+/* line 173, ../sass/index.scss */
 .about-us .mark-avto .toy {
   background-position: -14px 0;
 }
-/* line 186, ../sass/index.scss */
+/* line 176, ../sass/index.scss */
 .about-us .mark-avto .aud {
   background-position: -107px 0;
 }
-/* line 189, ../sass/index.scss */
+/* line 179, ../sass/index.scss */
 .about-us .mark-avto .bmw {
   background-position: -202px 0;
 }
-/* line 192, ../sass/index.scss */
+/* line 182, ../sass/index.scss */
 .about-us .mark-avto .chev {
   background-position: -298px 0;
 }
-/* line 195, ../sass/index.scss */
+/* line 185, ../sass/index.scss */
 .about-us .mark-avto .chery {
   background-position: -392px 0;
 }
-/* line 198, ../sass/index.scss */
+/* line 188, ../sass/index.scss */
 .about-us .mark-avto .pors {
   background-position: -488px 0;
 }
-/* line 201, ../sass/index.scss */
+/* line 191, ../sass/index.scss */
 .about-us .mark-avto .aston {
   background-position: -582px 0;
 }
-/* line 204, ../sass/index.scss */
+/* line 194, ../sass/index.scss */
 .about-us .mark-avto .fiat {
   background-position: -678px 0;
 }
-/* line 207, ../sass/index.scss */
+/* line 197, ../sass/index.scss */
 .about-us .mark-avto .mazda {
   background-position: -773px 0;
 }
-/* line 210, ../sass/index.scss */
+/* line 200, ../sass/index.scss */
 .about-us .mark-avto .niss {
   background-position: -868px 0;
 }
-/* line 213, ../sass/index.scss */
+/* line 203, ../sass/index.scss */
 .about-us .mark-avto .jeep {
   background-position: -964px 0;
 }
-/* line 216, ../sass/index.scss */
+/* line 206, ../sass/index.scss */
 .about-us .mark-avto .land {
   background-position: -1057px 0;
 }
-/* line 220, ../sass/index.scss */
+/* line 210, ../sass/index.scss */
 .about-us .ford-bg {
   background-image: url(/img/ford.png);
   background-position: center;
@@ -159,12 +159,12 @@ header .table .table-cell .container .main-text p {
   width: 100%;
   height: 460px;
 }
-/* line 229, ../sass/index.scss */
+/* line 219, ../sass/index.scss */
 .about-us .we-know {
   margin-top: 100px;
 }
 
-/* line 234, ../sass/index.scss */
+/* line 224, ../sass/index.scss */
 .avto-usa {
   background-image: url(/img/bg-avto-usa.png);
   background-repeat: no-repeat;
@@ -174,7 +174,7 @@ header .table .table-cell .container .main-text p {
   width: 100%;
   margin-top: 160px;
 }
-/* line 252, ../sass/index.scss */
+/* line 242, ../sass/index.scss */
 .avto-usa .container .row .avto-usa-img {
   background-image: url(/img/avto-usa-img.png);
   height: 500px;
@@ -184,21 +184,21 @@ header .table .table-cell .container .main-text p {
   border-radius: 5px;
   box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
 }
-/* line 262, ../sass/index.scss */
+/* line 252, ../sass/index.scss */
 .avto-usa .container .row .avto-usa-info {
   padding-left: 50px;
 }
-/* line 264, ../sass/index.scss */
+/* line 254, ../sass/index.scss */
 .avto-usa .container .row .avto-usa-info ul {
   margin-bottom: 55px;
 }
-/* line 266, ../sass/index.scss */
+/* line 256, ../sass/index.scss */
 .avto-usa .container .row .avto-usa-info ul li {
   font-size: 18px;
   color: #888888;
 }
 
-/* line 276, ../sass/index.scss */
+/* line 266, ../sass/index.scss */
 .main-form {
   background-image: url(/img/main-form-bg.png);
   background-position: center;
@@ -210,7 +210,7 @@ header .table .table-cell .container .main-text p {
   margin-top: -150px;
   margin-bottom: 165px;
 }
-/* line 288, ../sass/index.scss */
+/* line 278, ../sass/index.scss */
 .main-form .container .form-call:before {
   position: absolute;
   content: url(../img/main-line.png);
@@ -219,28 +219,28 @@ header .table .table-cell .container .main-text p {
   left: -45px;
   top: -2px;
 }
-/* line 296, ../sass/index.scss */
+/* line 286, ../sass/index.scss */
 .main-form .container .form-call {
   position: relative;
   width: 520px;
-  height: 560px;
+  height: 580px;
   background-color: #fff;
   margin-top: 160px;
   border-radius: 5px;
   box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
   overflow: hidden;
 }
-/* line 305, ../sass/index.scss */
+/* line 295, ../sass/index.scss */
 .main-form .container .form-call .text-form {
   max-width: 370px;
   margin: 0 auto;
   margin-top: 100px;
 }
-/* line 309, ../sass/index.scss */
+/* line 299, ../sass/index.scss */
 .main-form .container .form-call .text-form .title {
   margin-bottom: 30px;
 }
-/* line 312, ../sass/index.scss */
+/* line 302, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=text], .main-form .container .form-call .text-form select {
   width: 100%;
   font-size: 18px;
@@ -253,19 +253,19 @@ header .table .table-cell .container .main-text p {
   box-sizing: border-box;
   outline: none;
 }
-/* line 325, ../sass/index.scss */
+/* line 315, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=text]:active {
   border-radius: 50px;
   border: 1px solid #448aff;
   outline: none;
 }
-/* line 330, ../sass/index.scss */
+/* line 320, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=text]:focus {
   border-radius: 50px;
   border: 1px solid #448aff;
   outline: none;
 }
-/* line 336, ../sass/index.scss */
+/* line 326, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=submit] {
   width: 100%;
   background-color: #fff;
@@ -281,25 +281,25 @@ header .table .table-cell .container .main-text p {
   outline: none;
   transition: 0.5s all;
 }
-/* line 352, ../sass/index.scss */
+/* line 342, ../sass/index.scss */
 .main-form .container .form-call .text-form input[type=submit]:hover {
   color: #fff;
   background-color: #448aff;
 }
 
-/* line 361, ../sass/index.scss */
+/* line 351, ../sass/index.scss */
 .car-available {
   margin-bottom: 100px;
 }
-/* line 364, ../sass/index.scss */
+/* line 354, ../sass/index.scss */
 .car-available .container .row {
   margin-top: 50px;
 }
-/* line 366, ../sass/index.scss */
+/* line 356, ../sass/index.scss */
 .car-available .container .row a {
   text-decoration: none;
 }
-/* line 369, ../sass/index.scss */
+/* line 359, ../sass/index.scss */
 .car-available .container .row .car-item {
   text-decoration: none;
   overflow: hidden;
@@ -310,19 +310,19 @@ header .table .table-cell .container .main-text p {
   margin-bottom: 30px;
   transition: 0.5s all;
 }
-/* line 378, ../sass/index.scss */
+/* line 368, ../sass/index.scss */
 .car-available .container .row .car-item .car-item-foto {
   position: relative;
   margin-top: -2px;
   margin-left: -2px;
 }
-/* line 382, ../sass/index.scss */
+/* line 372, ../sass/index.scss */
 .car-available .container .row .car-item .car-item-foto img {
   width: 350px;
   height: 200px;
   border-radius: 5px;
 }
-/* line 387, ../sass/index.scss */
+/* line 377, ../sass/index.scss */
 .car-available .container .row .car-item .car-item-foto .overlay {
   position: absolute;
   top: 0;
@@ -333,56 +333,56 @@ header .table .table-cell .container .main-text p {
   transition: .5s ease-in-out;
   background-color: rgba(0, 0, 0, 0.3);
 }
-/* line 396, ../sass/index.scss */
+/* line 386, ../sass/index.scss */
 .car-available .container .row .car-item .car-item-foto .overlay img {
   height: 34px;
   width: 32px;
   margin: 83px 159px;
 }
-/* line 403, ../sass/index.scss */
+/* line 393, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item {
   max-width: 300px;
   margin: 0 auto;
   transition: 0.5s all;
 }
-/* line 411, ../sass/index.scss */
+/* line 401, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .marka {
   margin: 30px auto 20px;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color: #888888;
 }
-/* line 416, ../sass/index.scss */
+/* line 406, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .marka span {
   font-weight: bold;
   color: #000;
 }
-/* line 421, ../sass/index.scss */
+/* line 411, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .price {
   margin: 0 auto 20px;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   color: #888888;
 }
-/* line 426, ../sass/index.scss */
+/* line 416, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .price span {
   font-weight: bold;
   color: #000;
 }
-/* line 431, ../sass/index.scss */
+/* line 421, ../sass/index.scss */
 .car-available .container .row .car-item .opus-item .item-car-inf {
   margin: 0 auto;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
 }
-/* line 437, ../sass/index.scss */
+/* line 427, ../sass/index.scss */
 .car-available .container .row .car-item .btn_more {
   transform: translateY(90px);
   transition: 0.5s all;
   text-align: center;
   background-color: #fff;
 }
-/* line 442, ../sass/index.scss */
+/* line 432, ../sass/index.scss */
 .car-available .container .row .car-item .btn_more span {
   background-color: #fff;
   text-decoration: none;
@@ -394,28 +394,28 @@ header .table .table-cell .container .main-text p {
   border: 1px solid #000;
   padding: 18px 80px;
 }
-/* line 469, ../sass/index.scss */
+/* line 445, ../sass/index.scss */
 .car-available .container .row .car-item:hover {
   transform: translateY(-10px);
   box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
 }
-/* line 473, ../sass/index.scss */
+/* line 449, ../sass/index.scss */
 .car-available .container .row .car-item:hover .overlay {
   opacity: 1;
 }
-/* line 476, ../sass/index.scss */
+/* line 452, ../sass/index.scss */
 .car-available .container .row .car-item:hover .btn_more {
   transform: translateY(0);
 }
-/* line 479, ../sass/index.scss */
+/* line 455, ../sass/index.scss */
 .car-available .container .row .car-item:hover .opus-item {
   -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
 }
-/* line 485, ../sass/index.scss */
+/* line 461, ../sass/index.scss */
 .car-available .container .read-more {
   margin-top: 50px;
 }
-/* line 487, ../sass/index.scss */
+/* line 463, ../sass/index.scss */
 .car-available .container .read-more a {
   color: #fff;
   background-color: #448aff;
@@ -428,8 +428,465 @@ header .table .table-cell .container .main-text p {
   border-radius: 50px;
   transition: 0.5s all;
 }
-/* line 499, ../sass/index.scss */
+/* line 475, ../sass/index.scss */
 .car-available .container .read-more a:hover {
   color: #448aff;
   background-color: #fff;
+}
+
+@media (max-width: 1200px) {
+  /* line 483, ../sass/index.scss */
+  .car-available {
+    margin-bottom: 100px;
+  }
+  /* line 489, ../sass/index.scss */
+  .car-available .container .row .car-item {
+    min-height: 425px;
+    min-width: 300px;
+  }
+  /* line 493, ../sass/index.scss */
+  .car-available .container .row .car-item .car-item-foto img {
+    width: 300px;
+    height: 200px;
+  }
+}
+@media (max-width: 1024px) {
+  /* line 504, ../sass/index.scss */
+  header {
+    height: 100vh;
+    position: relative;
+    margin-bottom: 230px;
+    overflow: hidden;
+  }
+  /* line 512, ../sass/index.scss */
+  header .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(18, 30, 97, 0.5);
+  }
+  /* line 521, ../sass/index.scss */
+  header video {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  /* line 604, ../sass/index.scss */
+  header .table {
+    z-index: 1;
+    display: table;
+    height: 100%;
+    width: 100%;
+  }
+  /* line 609, ../sass/index.scss */
+  header .table .table-cell {
+    vertical-align: middle;
+    display: table-cell;
+  }
+  /* line 613, ../sass/index.scss */
+  header .table .table-cell .container .main-header-logo {
+    position: absolute;
+    z-index: 1;
+    content: url(../img/big-logo.png);
+    max-width: 600px;
+    max-height: 380px;
+    top: -25px;
+    left: -50px;
+  }
+  /* line 622, ../sass/index.scss */
+  header .table .table-cell .container .main-text {
+    z-index: 1;
+    max-width: 645px;
+    position: relative;
+  }
+  /* line 626, ../sass/index.scss */
+  header .table .table-cell .container .main-text h1 {
+    z-index: 1;
+    max-width: 645px;
+    margin-bottom: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+  /* line 634, ../sass/index.scss */
+  header .table .table-cell .container .main-text h3 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* line 640, ../sass/index.scss */
+  header .table .table-cell .container .main-text p {
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  /* line 650, ../sass/index.scss */
+  .line-header {
+    background-image: url(../img/main-line.png);
+    width: 195px;
+    height: 145px;
+    position: absolute;
+    bottom: -143px;
+    left: 40%;
+  }
+
+  /* line 658, ../sass/index.scss */
+  .about-us {
+    width: 100%;
+  }
+  /* line 661, ../sass/index.scss */
+  .about-us p {
+    margin-bottom: 55px;
+  }
+  /* line 663, ../sass/index.scss */
+  .about-us p span {
+    color: #000000;
+  }
+  /* line 670, ../sass/index.scss */
+  .about-us .mark-avto .car-mark {
+    background-image: url(../img/brand_sprite.png);
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 70px;
+    margin: 0 auto;
+  }
+  /* line 677, ../sass/index.scss */
+  .about-us .mark-avto .toy {
+    background-position: -14px 0;
+  }
+  /* line 680, ../sass/index.scss */
+  .about-us .mark-avto .aud {
+    background-position: -107px 0;
+  }
+  /* line 683, ../sass/index.scss */
+  .about-us .mark-avto .bmw {
+    background-position: -202px 0;
+  }
+  /* line 686, ../sass/index.scss */
+  .about-us .mark-avto .chev {
+    background-position: -298px 0;
+  }
+  /* line 689, ../sass/index.scss */
+  .about-us .mark-avto .chery {
+    background-position: -392px 0;
+  }
+  /* line 692, ../sass/index.scss */
+  .about-us .mark-avto .pors {
+    background-position: -488px 0;
+  }
+  /* line 695, ../sass/index.scss */
+  .about-us .mark-avto .aston {
+    background-position: -582px 0;
+  }
+  /* line 698, ../sass/index.scss */
+  .about-us .mark-avto .fiat {
+    background-position: -678px 0;
+  }
+  /* line 701, ../sass/index.scss */
+  .about-us .mark-avto .mazda {
+    background-position: -773px 0;
+  }
+  /* line 704, ../sass/index.scss */
+  .about-us .mark-avto .niss {
+    background-position: -868px 0;
+  }
+  /* line 707, ../sass/index.scss */
+  .about-us .mark-avto .jeep {
+    background-position: -964px 0;
+  }
+  /* line 710, ../sass/index.scss */
+  .about-us .mark-avto .land {
+    background-position: -1057px 0;
+  }
+  /* line 714, ../sass/index.scss */
+  .about-us .ford-bg {
+    background-image: url(/img/ford.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 100%;
+    height: 300px;
+  }
+  /* line 723, ../sass/index.scss */
+  .about-us .we-know {
+    margin-top: 100px;
+  }
+
+  /* line 728, ../sass/index.scss */
+  .avto-usa {
+    background-image: url(/img/bg-avto-usa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    background-size: contain;
+    width: 100%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+  /* line 747, ../sass/index.scss */
+  .avto-usa .container .row .avto-usa-img {
+    background-image: url(/img/avto-usa-img.png);
+    height: 500px;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    border: 10px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
+  }
+  /* line 758, ../sass/index.scss */
+  .avto-usa .container .row .avto-usa-info {
+    padding-left: 50px;
+  }
+  /* line 760, ../sass/index.scss */
+  .avto-usa .container .row .avto-usa-info ul {
+    margin-bottom: 55px;
+  }
+  /* line 762, ../sass/index.scss */
+  .avto-usa .container .row .avto-usa-info ul li {
+    font-size: 18px;
+    color: #888888;
+  }
+
+  /* line 772, ../sass/index.scss */
+  .main-form {
+    background-image: url(/img/main-form-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    margin-top: -150px;
+    margin-bottom: 165px;
+  }
+  /* line 784, ../sass/index.scss */
+  .main-form .container .form-call:before {
+    position: absolute;
+    content: url(../img/main-line.png);
+    width: 195px;
+    height: 145px;
+    left: -45px;
+    top: -2px;
+  }
+  /* line 792, ../sass/index.scss */
+  .main-form .container .form-call {
+    position: relative;
+    width: 520px;
+    height: 560px;
+    background-color: #fff;
+    margin-top: 160px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+  }
+  /* line 801, ../sass/index.scss */
+  .main-form .container .form-call .text-form {
+    max-width: 370px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  /* line 805, ../sass/index.scss */
+  .main-form .container .form-call .text-form .title {
+    margin-bottom: 30px;
+  }
+  /* line 808, ../sass/index.scss */
+  .main-form .container .form-call .text-form input[type=text], .main-form .container .form-call .text-form select {
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px 25px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+    outline: none;
+  }
+  /* line 821, ../sass/index.scss */
+  .main-form .container .form-call .text-form input[type=text]:active {
+    border-radius: 50px;
+    border: 1px solid #448aff;
+    outline: none;
+  }
+  /* line 826, ../sass/index.scss */
+  .main-form .container .form-call .text-form input[type=text]:focus {
+    border-radius: 50px;
+    border: 1px solid #448aff;
+    outline: none;
+  }
+  /* line 832, ../sass/index.scss */
+  .main-form .container .form-call .text-form input[type=submit] {
+    width: 100%;
+    background-color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    padding: 15px 20px;
+    margin-top: 30px;
+    border: 1px solid #448aff;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #448aff;
+    outline: none;
+    transition: 0.5s all;
+  }
+  /* line 848, ../sass/index.scss */
+  .main-form .container .form-call .text-form input[type=submit]:hover {
+    color: #fff;
+    background-color: #448aff;
+  }
+
+  /* line 857, ../sass/index.scss */
+  .car-available {
+    margin-bottom: 75px;
+  }
+  /* line 860, ../sass/index.scss */
+  .car-available .container .row {
+    margin-top: 50px;
+  }
+  /* line 862, ../sass/index.scss */
+  .car-available .container .row a {
+    text-decoration: none;
+  }
+  /* line 865, ../sass/index.scss */
+  .car-available .container .row .car-item {
+    text-decoration: none;
+    overflow: hidden;
+    min-height: 425px;
+    min-width: 250px;
+    border: 1px #d9d9d9 solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    transition: 0.5s all;
+  }
+  /* line 874, ../sass/index.scss */
+  .car-available .container .row .car-item .car-item-foto {
+    position: relative;
+    margin-top: -2px;
+    margin-left: -2px;
+  }
+  /* line 878, ../sass/index.scss */
+  .car-available .container .row .car-item .car-item-foto img {
+    width: 255px;
+    height: 200px;
+    border-radius: 5px;
+  }
+  /* line 883, ../sass/index.scss */
+  .car-available .container .row .car-item .car-item-foto .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  /* line 892, ../sass/index.scss */
+  .car-available .container .row .car-item .car-item-foto .overlay img {
+    height: 34px;
+    width: 32px;
+    margin: 83px 159px;
+  }
+  /* line 899, ../sass/index.scss */
+  .car-available .container .row .car-item .opus-item {
+    max-width: 300px;
+    margin: 0 auto;
+    transition: 0.5s all;
+  }
+  /* line 907, ../sass/index.scss */
+  .car-available .container .row .car-item .opus-item .marka {
+    margin: 30px auto 20px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #888888;
+  }
+  /* line 912, ../sass/index.scss */
+  .car-available .container .row .car-item .opus-item .marka span {
+    font-weight: bold;
+    color: #000;
+  }
+  /* line 917, ../sass/index.scss */
+  .car-available .container .row .car-item .opus-item .price {
+    margin: 0 auto 20px;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #888888;
+  }
+  /* line 922, ../sass/index.scss */
+  .car-available .container .row .car-item .opus-item .price span {
+    font-weight: bold;
+    color: #000;
+  }
+  /* line 927, ../sass/index.scss */
+  .car-available .container .row .car-item .opus-item .item-car-inf {
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+  /* line 933, ../sass/index.scss */
+  .car-available .container .row .car-item .btn_more {
+    transform: translateY(90px);
+    transition: 0.5s all;
+    text-align: center;
+    background-color: #fff;
+  }
+  /* line 938, ../sass/index.scss */
+  .car-available .container .row .car-item .btn_more span {
+    background-color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
+    font-weight: bold;
+    border-radius: 50px;
+    border: 1px solid #000;
+    padding: 18px 80px;
+  }
+  /* line 951, ../sass/index.scss */
+  .car-available .container .row .car-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
+  }
+  /* line 955, ../sass/index.scss */
+  .car-available .container .row .car-item:hover .overlay {
+    opacity: 1;
+  }
+  /* line 958, ../sass/index.scss */
+  .car-available .container .row .car-item:hover .btn_more {
+    transform: translateY(0);
+  }
+  /* line 961, ../sass/index.scss */
+  .car-available .container .row .car-item:hover .opus-item {
+    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+  }
+  /* line 967, ../sass/index.scss */
+  .car-available .container .read-more {
+    margin-top: 50px;
+  }
+  /* line 969, ../sass/index.scss */
+  .car-available .container .read-more a {
+    color: #fff;
+    background-color: #448aff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 65px;
+    border: 1px solid #448aff;
+    margin-left: 20px;
+    border-radius: 50px;
+    transition: 0.5s all;
+  }
+  /* line 981, ../sass/index.scss */
+  .car-available .container .read-more a:hover {
+    color: #448aff;
+    background-color: #fff;
+  }
 }

@@ -83,3 +83,20 @@
     }
   }
 }
+@media (max-width: 1200px) {
+  .catalog{
+    margin-bottom: 100px;
+
+    h1{
+      position: relative;
+      z-index: 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 515px;
+    }
+  }
+  .catalog:after{
+    display: none;
+  }
+}

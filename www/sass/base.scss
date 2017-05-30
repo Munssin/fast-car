@@ -7,6 +7,16 @@ html, body{
 .container{
   max-width: 1170px;
 }
+@media (max-width: 990px) {
+  .container{
+    max-width: 600px;
+  }
+}
+@media (max-width: 569px) {
+  .container{
+    max-width: 100%;
+  }
+}
 .row{
   padding: 0;
   margin: 0;

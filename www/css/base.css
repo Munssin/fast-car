@@ -11,32 +11,44 @@ html, body {
   max-width: 1170px;
 }
 
-/* line 10, ../sass/base.scss */
+@media (max-width: 990px) {
+  /* line 11, ../sass/base.scss */
+  .container {
+    max-width: 600px;
+  }
+}
+@media (max-width: 569px) {
+  /* line 16, ../sass/base.scss */
+  .container {
+    max-width: 100%;
+  }
+}
+/* line 20, ../sass/base.scss */
 .row {
   padding: 0;
   margin: 0;
 }
 
-/* line 14, ../sass/base.scss */
+/* line 24, ../sass/base.scss */
 h1, h2, h3, h1, h2, h3 {
   margin: 0;
   padding: 0;
 }
 
-/* line 18, ../sass/base.scss */
+/* line 28, ../sass/base.scss */
 h1 {
   font-size: 48px;
   color: #fffefe;
   text-transform: uppercase;
 }
 
-/* line 23, ../sass/base.scss */
+/* line 33, ../sass/base.scss */
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
 
-/* line 27, ../sass/base.scss */
+/* line 37, ../sass/base.scss */
 .title {
   font-size: 30px;
   text-transform: uppercase;
@@ -48,7 +60,7 @@ h2 {
   font-weight: bold;
 }
 
-/* line 37, ../sass/base.scss */
+/* line 47, ../sass/base.scss */
 .title:before {
   content: '';
   position: absolute;
@@ -58,7 +70,7 @@ h2 {
   bottom: 0;
 }
 
-/* line 45, ../sass/base.scss */
+/* line 55, ../sass/base.scss */
 .par {
   max-width: 1100px;
   font-size: 18px;
@@ -66,14 +78,14 @@ h2 {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 51, ../sass/base.scss */
+/* line 61, ../sass/base.scss */
 p {
   font-family: 'Open Sans', sans-serif;
   color: #888888;
   font-size: 18px;
 }
 
-/* line 61, ../sass/base.scss */
+/* line 71, ../sass/base.scss */
 footer {
   padding: 50px 0;
   margin-top: 0;
@@ -82,19 +94,19 @@ footer {
   display: flex;
   align-items: center;
 }
-/* line 70, ../sass/base.scss */
+/* line 80, ../sass/base.scss */
 footer .container .row .footer-logo {
   position: relative;
   margin-top: 45px;
 }
-/* line 74, ../sass/base.scss */
+/* line 84, ../sass/base.scss */
 footer .container .row .footer-logo:after {
   content: url(../img/footer-line.png);
   position: absolute;
   right: 55px;
   bottom: -50px;
 }
-/* line 80, ../sass/base.scss */
+/* line 90, ../sass/base.scss */
 footer .container .row h6 {
   font-size: 16px;
   color: #fff;
@@ -102,92 +114,92 @@ footer .container .row h6 {
   font-family: 'Open Sans', sans-serif;
   font-weight: bold;
 }
-/* line 87, ../sass/base.scss */
+/* line 97, ../sass/base.scss */
 footer .container .row ul {
   list-style: none;
   padding-left: 0;
 }
-/* line 91, ../sass/base.scss */
+/* line 101, ../sass/base.scss */
 footer .container .row ul li a {
   color: #a1a1a1;
   font-size: 12px;
   line-height: 2;
   font-family: 'Open Sans', sans-serif;
 }
-/* line 97, ../sass/base.scss */
+/* line 107, ../sass/base.scss */
 footer .container .row ul li a:hover {
   color: #fff;
 }
 
 @media (max-width: 1024px) {
-  /* line 106, ../sass/base.scss */
+  /* line 116, ../sass/base.scss */
   footer {
     padding: 0;
   }
-  /* line 112, ../sass/base.scss */
+  /* line 122, ../sass/base.scss */
   footer .container .row .footer-logo:after {
     display: none;
   }
-  /* line 119, ../sass/base.scss */
+  /* line 129, ../sass/base.scss */
   footer .container .row .footer-nav {
     text-align: center;
   }
-  /* line 121, ../sass/base.scss */
+  /* line 131, ../sass/base.scss */
   footer .container .row .footer-nav h6 {
     padding-top: 25px;
     padding-bottom: 0;
   }
-  /* line 126, ../sass/base.scss */
+  /* line 136, ../sass/base.scss */
   footer .container .row .footer-services {
     text-align: center;
   }
-  /* line 128, ../sass/base.scss */
+  /* line 138, ../sass/base.scss */
   footer .container .row .footer-services h6 {
     padding-top: 25px;
     padding-bottom: 0;
   }
-  /* line 133, ../sass/base.scss */
+  /* line 143, ../sass/base.scss */
   footer .container .row .footer-contact {
     text-align: center;
   }
-  /* line 135, ../sass/base.scss */
+  /* line 145, ../sass/base.scss */
   footer .container .row .footer-contact h6 {
     padding-top: 25px;
     padding-bottom: 0;
   }
 }
 @media (max-width: 569px) {
-  /* line 145, ../sass/base.scss */
+  /* line 155, ../sass/base.scss */
   footer {
     padding: 0;
   }
-  /* line 151, ../sass/base.scss */
+  /* line 161, ../sass/base.scss */
   footer .container .row .footer-logo:after {
     display: none;
   }
-  /* line 158, ../sass/base.scss */
+  /* line 168, ../sass/base.scss */
   footer .container .row .footer-nav {
     text-align: center;
   }
-  /* line 160, ../sass/base.scss */
+  /* line 170, ../sass/base.scss */
   footer .container .row .footer-nav h6 {
     padding-top: 25px;
     padding-bottom: 0;
   }
-  /* line 165, ../sass/base.scss */
+  /* line 175, ../sass/base.scss */
   footer .container .row .footer-services {
     text-align: center;
   }
-  /* line 167, ../sass/base.scss */
+  /* line 177, ../sass/base.scss */
   footer .container .row .footer-services h6 {
     padding-top: 25px;
     padding-bottom: 0;
   }
-  /* line 172, ../sass/base.scss */
+  /* line 182, ../sass/base.scss */
   footer .container .row .footer-contact {
     text-align: center;
   }
-  /* line 174, ../sass/base.scss */
+  /* line 184, ../sass/base.scss */
   footer .container .row .footer-contact h6 {
     padding-top: 25px;
     padding-bottom: 0;

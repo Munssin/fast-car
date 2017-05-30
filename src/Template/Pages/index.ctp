@@ -39,40 +39,40 @@
 
         <div class="mark-avto">
             <div class="row">
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark toy"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class=" car-mark aud"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark bmw"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark chev"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark chery"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark pors"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark aston"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark fiat"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark mazda"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark niss"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark jeep"></div>
                 </div>
-                <div class="col-md-1">
+                <div class="col-xs-6 col-sm-3 col-md-1">
                     <div class="car-mark land"></div>
                 </div>
             </div>
@@ -156,7 +156,7 @@
         <h2 class="title">Нові автомобілі в наявності</h2>
         <p class="par">Список авто, що вже знаходяться в Україні, та чекають на свої власників</p>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
 
                 <a href="">
                 <div class="car-item">
@@ -180,7 +180,7 @@
             </div>
 
 
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <a href="">
                     <div class="car-item">
 
@@ -201,7 +201,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <a href="">
                     <div class="car-item">
 
@@ -222,7 +222,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <a href="">
                     <div class="car-item">
 
@@ -243,7 +243,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <a href="">
                     <div class="car-item">
 
@@ -264,7 +264,7 @@
                     </div>
                 </a>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 col-sm-6">
                 <a href="">
                     <div class="car-item">
 

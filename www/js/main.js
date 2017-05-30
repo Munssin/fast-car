@@ -13,3 +13,38 @@
     //         $nav.removeClass("as");
     //     }
     // });
+
+    // $(".go-main").click(function(){
+    //     $(".focus-car").css({"background-image": "url(/img/car-item-2.png)"
+    //     });
+    // });
+
+    $('.open-mob').click(function () {
+        $(this).toggleClass('active');
+        $('#mob-nav').toggleClass('open');
+        // $('body').css('overflow-y', 'hidden');
+    });
+
+    $('.slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.slider-nav'
+    });
+    $('.slider-nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.slider',
+        dots: false,
+        centerMode: true,
+        focusOnSelect: true
+    });
+
+    var map;
+    function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: -34.397, lng: 150.644},
+            zoom: 8
+        });
+    }

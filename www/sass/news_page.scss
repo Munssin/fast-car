@@ -1,0 +1,37 @@
+.news-page{
+  background-image: url(../img/news-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 364px;
+  width: 100%;
+  margin-top: 135px;
+  position: relative;
+  margin-bottom: 200px;
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(18, 30, 97, 0.5);
+  }
+  h1{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 364px;
+  }
+}
+.news-page:after{
+  position: absolute;
+  content: url(../img/main-line.png);
+  width: 195px;
+  height: 145px;
+  left: 40%;
+  bottom: -143px;
+}
