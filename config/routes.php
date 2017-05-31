@@ -56,8 +56,10 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/catalog_open', ['controller' => 'Pages', 'action' => 'catalog_open']);
     $routes->connect('/news_page', ['controller' => 'Pages', 'action' => 'news_page']);
     $routes->connect('/contact', ['controller' => 'Pages', 'action' => 'contact']);
-
-
+    $routes->connect('/rozmt', ['controller' => 'Pages', 'action' => 'rozmt']);
+    $routes->connect('/buy', ['controller' => 'Pages', 'action' => 'buy']);
+    $routes->connect('/delivery', ['controller' => 'Pages', 'action' => 'delivery']);
+    $routes->connect('/kluch', ['controller' => 'Pages', 'action' => 'kluch']);
     /**
      * Connect catchall routes for all controllers.
      *

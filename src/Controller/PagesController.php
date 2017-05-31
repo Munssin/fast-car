@@ -53,4 +53,20 @@ class PagesController extends AppController
     {
 
     }
+    public function rozmt()
+    {
+
+    }
+    public function buy()
+    {
+
+    }
+    public function delivery()
+    {
+
+    }
+    public function kluch()
+    {
+
+    }
 }

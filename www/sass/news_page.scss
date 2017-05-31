@@ -35,3 +35,18 @@
   left: 40%;
   bottom: -143px;
 }
+.news-page-info{
+  margin-bottom: 100px;
+  .container{
+    .row{
+      .news-item-info{
+        .news-data{
+          font-size: 14px;
+          font-family: 'Open Sans', sans-serif;
+          color: #888888;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,275 @@
+.rozmt{
+  background-image: url(../img/rozmt-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 364px;
+  width: 100%;
+  margin-top: 135px;
+  position: relative;
+  margin-bottom: 200px;
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(18, 30, 97, 0.5);
+  }
+  h1{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 364px;
+  }
+}
+.rozmt:after{
+  position: absolute;
+  content: url(../img/main-line.png);
+  width: 195px;
+  height: 145px;
+  left: 40%;
+  bottom: -143px;
+}
+@media (max-width:1024px) {
+  .rozmt{
+    margin-bottom: 75px;
+  }
+  .rozmt:after{
+    content: "";
+  }
+}
+@media (max-width:569px) {
+  .rozmt{
+    background-image: url(../img/rozmt-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-top: 80px;
+    position: relative;
+    h1{
+      height: 200px;
+    }
+  }
+}
+
+.rozmt-info{
+  padding-bottom: 30px;
+  .container{
+    .row{
+      .rozmt-text{
+        h2{}
+        p{
+          strong{
+            color: #000;
+          }
+        }
+        ul{
+          li{
+            line-height: 30px;
+            font-family: 'Open Sans', sans-serif;
+            color: #888888;
+            font-size: 18px;
+          }
+        }
+        table{
+          border: 1px solid #888888;
+          th{
+            line-height: 30px;
+            font-family: 'Open Sans', sans-serif;
+            color: #888888;
+            font-size: 18px;
+            text-align: center;
+            border: 1px solid #888888;
+            padding: 30px 0;
+          }
+          td{
+            line-height: 30px;
+            font-family: 'Open Sans', sans-serif;
+            color: #888888;
+            font-size: 18px;
+            text-align: center;
+            border: 1px solid #888888;
+            padding: 5px 0;
+            strong{
+              color: #000;
+            }
+          }
+          @media (max-width:569px) {
+          th{
+            font-size: 14px;
+            padding: 10px 5px;
+          }
+          td{
+            font-size: 14px;
+            padding: 0 5px;
+          }
+        }
+        }
+      }
+    }
+  }
+}
+.rozmt-form{
+  //position: relative;
+  background-image: url(/img/rozmt-form-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  min-height: 1250px;
+  margin-top: -50px;
+  margin-bottom: 0;
+  .container{
+    .form-call:before{
+      position: absolute;
+      content: url(../img/main-line.png);
+      width: 195px;
+      height: 145px;
+      left: -45px;
+      top: -2px;
+    }
+    .form-call{
+      position: relative;
+      width: 520px;
+      height: 580px;
+      background-color: #fff;
+      margin-top: 160px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+      .text-form{
+        max-width: 370px;
+        margin: 0 auto;
+        margin-top: 100px;
+        .title{
+          margin-bottom: 30px;
+        }
+        input[type=text], select {
+          width: 100%;
+          font-size: 18px;
+          font-family: 'Open Sans', sans-serif;
+          padding: 15px 25px;
+          //margin: 10px 0;
+          margin-bottom: 10px;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 50px;
+          box-sizing: border-box;
+          outline: none;
+        }
+        input[type=text]:active{
+          border-radius: 50px;
+          border: 1px solid #448aff;
+          outline: none;
+        }
+        input[type=text]:focus{
+          border-radius: 50px;
+          border: 1px solid #448aff;
+          outline: none;
+        }
+
+        input[type=submit] {
+          width: 100%;
+          background-color: #fff;
+          font-size: 18px;
+          font-family: 'Open Sans', sans-serif;
+          font-weight: bold;
+          padding: 15px 20px;
+          margin-top: 30px;
+          border: 1px solid #448aff;
+          border-radius: 50px;
+          cursor: pointer;
+          color: #448aff;
+          outline: none;
+          transition: 0.5s all;
+        }
+
+        input[type=submit]:hover {
+          color: #fff;
+          background-color: #448aff;
+        }
+      }
+    }
+    @media (max-width: 569px) {
+      .form-call:before{
+        content: "";
+      }
+      .form-call{
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        margin-top: 160px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 78px -10px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+        .text-form{
+          width: 100%;
+          /* margin: 0 auto; */
+          margin-top: 10px;
+          padding: 20px;
+          .title{
+            margin-bottom: 10px;
+          }
+          p{
+            font-size: 12px;
+            line-height: 20px;
+          }
+          input[type=text], select {
+            width: 100%;
+            font-size: 12px;
+            font-family: 'Open Sans', sans-serif;
+            padding: 8px 20px;
+            margin-bottom: 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 50px;
+            box-sizing: border-box;
+            outline: none;
+          }
+          input[type=text]:active{
+            border-radius: 50px;
+            border: 1px solid #448aff;
+            outline: none;
+          }
+          input[type=text]:focus{
+            border-radius: 50px;
+            border: 1px solid #448aff;
+            outline: none;
+          }
+
+          input[type=submit] {
+            width: 100%;
+            background-color: #fff;
+            font-size: 12px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: bold;
+            padding: 10px 0;
+            margin-top: 20px;
+            border: 1px solid #448aff;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            cursor: pointer;
+            color: #448aff;
+            outline: none;
+            transition: 0.5s all;
+          }
+
+          input[type=submit]:hover {
+            color: #fff;
+            background-color: #448aff;
+          }
+        }
+      }
+    }
+  }
+}

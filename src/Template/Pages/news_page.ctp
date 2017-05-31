@@ -23,3 +23,24 @@
         </div>
     </div>
 </section>
+<hr>
+<section class="discovering-first">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="discovering-text">
+                    <h2 class="title">дізнавайся першим</h2>
+                    <p>Підпишись на розсилку, та отримуй сповіщення про новини та нові поставки у каталозі</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="discovering-form">
+                    <input type="text" id="num" name="num" placeholder="Email">
+
+                    <input type="submit" value="ПІДПИСАТИСЬ">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>

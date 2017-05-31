@@ -183,12 +183,12 @@
   .container{
     .row{
       .discovering-text:before{
-        background-image: url(../img/main-line.png);
+        content: url(../img/main-line.png);
         width: 195px;
         height: 145px;
         position: absolute;
-        bottom: -143px;
-        left: 40%;
+        top: -72px;
+        left: -170px;
       }
       .discovering-text{
         position: relative;
@@ -425,7 +425,7 @@
     .container{
       .row{
         .discovering-text:before{
-          background-image: url(../img/main-line.png);
+         content: "";
           width: 195px;
           height: 145px;
           position: absolute;
@@ -648,7 +648,6 @@
     .container{
       .row{
         .discovering-text:before{
-          background-image: url(../img/main-line.png);
           width: 195px;
           height: 145px;
           position: absolute;
@@ -824,10 +823,11 @@
         margin-bottom: 50px;
         padding-top: 0px;
         width: 100%;
-        text-align: center;
+        text-align: left;
         ul{
           display: inline-flex;
           list-style: none;
+          margin-left: -20px;
           li{
             margin: 0 5px;
             a{
@@ -839,12 +839,12 @@
               border-radius: 0;
               background-color: #fff;
               color: #448aff;
-              padding: 0 0;
+              padding: 5px;
               transition: 0.5s all;
             }
             a:hover{
-              background-color: #fff;
-              color: #448aff;
+              background-color: transparent;
+              color: transparent;
             }
             .btn-next{
             }
@@ -860,7 +860,7 @@
               border-radius: 50px;
               background-color: #448aff;
               color: #fff;
-              padding: 5px 10px;
+              padding: 5px 5px;
               transition: 0.5s all;
             }
           }
@@ -873,7 +873,6 @@
     .container{
       .row{
         .discovering-text:before{
-          background-image: url(../img/main-line.png);
           width: 195px;
           height: 145px;
           position: absolute;

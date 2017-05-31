@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="/css/catalog_open.css">
     <link rel="stylesheet" href="/css/contact.css">
     <link rel="stylesheet" href="/css/news_page.css">
+    <link rel="stylesheet" href="/css/rozmt.css">
+    <link rel="stylesheet" href="/css/buy.css">
+    <link rel="stylesheet" href="/css/delivery.css">
+    <link rel="stylesheet" href="/css/kluch.css">
 </head>
 <body>
 

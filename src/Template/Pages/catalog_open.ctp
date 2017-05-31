@@ -1,8 +1,8 @@
 <section class="catalog-open">
     <div class="overlay"></div>
     <div class="open-car">
-        <h1>AUDI Q5 <span> Quattro, 2.0 TFSI </span>
-        12,000 $
+        <h1>AUDI Q5 <br><span> Quattro, 2.0 TFSI </span><br>
+        <span>12,000 $</span>
         </h1>
     </div>
 </section>
